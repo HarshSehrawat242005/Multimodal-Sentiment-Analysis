@@ -1,0 +1,4 @@
+text,image_path,audio_path,label
+"I love this product!","dataset/images/img1.jpg","dataset/audio/audio1.wav",Positive
+"This is terrible.","dataset/images/img2.jpg","dataset/audio/audio2.wav",Negative
+"Not bad, could be better.","dataset/images/img3.jpg","dataset/audio/audio3.wav",Neutral
