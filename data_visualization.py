@@ -1,0 +1,17 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load dataset
+dataset_path = "dataset/your-dataset-file.csv"
+data = pd.read_csv(dataset_path)
+
+# Visualize label distribution
+plt.figure(figsize=(6, 6))
+data['label'].value_counts().plot(kind='bar', color=['blue', 'orange', 'green'])
+plt.title("Label Distribution")
+plt.xlabel("Sentiment")
+plt.ylabel("Count")
+plt.show()
+
+# Other visualizations
+# Add more plots as necessary, e.g., text length distribution, audio features, etc.
