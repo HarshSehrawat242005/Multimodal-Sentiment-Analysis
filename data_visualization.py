@@ -13,5 +13,3 @@ plt.xlabel("Sentiment")
 plt.ylabel("Count")
 plt.show()
 
-# Other visualizations
-# Add more plots as necessary, e.g., text length distribution, audio features, etc.
