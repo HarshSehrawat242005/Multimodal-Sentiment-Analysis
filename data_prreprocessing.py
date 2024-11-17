@@ -13,7 +13,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load dataset
-dataset_path = "dataset/your-dataset-file.csv"
+dataset_path = "dataset/multimodal_dataset.csv"
 data = pd.read_csv(dataset_path)
 
 # Preprocess text
